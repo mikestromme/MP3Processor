@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Processed Tracks</title>
+</head>
+<body>
+
+<h2>Your tracks have been processed!</h2>
+<p>Click on the links below to download the separated tracks:</p>
+
+<a href="{{ url_for('download_file', filename='vocals_output.wav') }}">Download Vocals</a><br>
+<a href="{{ url_for('download_file', filename='drums_output.wav') }}">Download Drums</a><br>
+<a href="{{ url_for('download_file', filename='bass_output.wav') }}">Download Bass</a><br>
+<a href="{{ url_for('download_file', filename='other_output.wav') }}">Download Other</a>
+
+</body>
+</html>

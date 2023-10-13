@@ -1,0 +1,19 @@
+#buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056B3;
+}
